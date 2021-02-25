@@ -1,0 +1,15 @@
+<script>
+
+    var w = window.outerWidth;
+
+    alert("w : " + w);
+
+    if (w > 1000) {
+        location.href = "silsp_PC/index.html";
+    } else if (w > 600) {
+        location.href = "silsp_Tablet/index.html";
+    } else {
+        location.href = "silsp_Phone/index.html";
+    }
+
+</script>
